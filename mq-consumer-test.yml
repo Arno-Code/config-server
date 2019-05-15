@@ -15,4 +15,4 @@ eureka:
     service-url:
       defaultZone: http://xmcc.com:7001/eureka/
 bus:
-  test: aaaaaaaaaa
+  test: bbbbbbb
