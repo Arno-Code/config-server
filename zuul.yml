@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    abc:
+      path: /abc/**
+      serviceId: mircoservice-dept
+  ignored-patterns:
+    - /**/zuulTest
+  sensitive-headers:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
